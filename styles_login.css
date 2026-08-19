@@ -75,3 +75,25 @@ body {
     width: 20vh;
     height: 10vh;
 }
+@media (max-width: 765px) {
+    .grid_container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid_esquerda {
+        display: none; 
+    }
+
+    .grid_direita {
+        width: 100%;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
